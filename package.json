@@ -1,0 +1,23 @@
+{
+  "name": "conflict-economy-ventures-2040-3d",
+  "version": "3.3.0",
+  "private": true,
+  "description": "2040 Tycoon: three-dimensional multiplayer strategy teaching simulation with server-controlled AI/NPA factions and a synchronized mediation Reality Check, selectable 3/4/5-round schedules and server-authoritative manual/auto pacing",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.1"
+  }
+}

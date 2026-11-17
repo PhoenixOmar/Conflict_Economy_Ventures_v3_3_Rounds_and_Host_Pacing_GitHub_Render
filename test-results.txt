@@ -1,0 +1,3 @@
+Version 3.3 validation: 29/29 automated tests passing.
+See tests/pacing-and-schedules.test.js for new schedule/pacing/Reality Check coverage.
+Browser host/mobile smoke checks completed with local simulated Socket.io state; genuine deployed multi-device integration remains to be tested.
